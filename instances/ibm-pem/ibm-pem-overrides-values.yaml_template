@@ -50,7 +50,8 @@ ibm-pem-standard-vbudi:
     image:
       repository: 'cp.icr.io/cp'
       name: 'opencontent-common-utils'
-      tag: '1.1.11'
+      #tag: '1.1.11'
+      tag: 'v110508.0'
       pullPolicy: 'IfNotPresent'
       pullSecret: "ibm-entitlement-key"
 
